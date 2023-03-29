@@ -38,12 +38,13 @@ Sugestão de leitura
   * Revise, organize e simplifique
   * Repita o processo
 * Segundo o [Veritasium](https://www.youtube.com/watch?v=5eW6Eagr9XA&ab_channel=Veritasium), há quatro coisas necessárias para se tornar um expert em algo
+  * Quantas experiências repetidas forem possíveis com feedback
+    * quanto mais repetir, melhor ainda se tiver retorno de algo ou alguém te indicando se esta ou não acertando segundo métricas úteis a sua aprendizagem
   * Um ambiente válido
     * aquele onde exista instrumentos, métodos e equipamentos úteis a aprendizagem
-  * Quantas repetições forem possíveis
-    * quanto mais repetir, melhor
-  * Feedback contínuo
-    * alguém ou algo te indicando se esta ou não acertando segundo métricas úteis a aprendizagem
+    * padrões de comportamento que aparentam ser previsíveis
+  * Feedback contínuo no tempo
+    * feedback em tempo real sobre padrões que estão se formando no momento
   * Prática deliberada
     * sempre que possível, aumentar os níveis de aprendizagem, aprofundando em conceitos cada vez mais desafiadores e que requer pesquisa e desenvolvimento, isto o ajudará a se tornar um expert no assunto
 * Uma outra forma de aumentar a absorção de novos assuntos é a aprendizagem espaçada
