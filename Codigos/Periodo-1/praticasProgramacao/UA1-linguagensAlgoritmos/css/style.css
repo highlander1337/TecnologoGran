@@ -1,0 +1,85 @@
+/*referenciando via tag*/
+body{
+    color: white;
+    background-color: rgb(55, 1, 1);
+    margin: 0;
+}
+h1{
+    color: rgba(182, 26,26, 0.925);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    text-align: justify;
+    
+}
+
+header{
+    background-color: brown;
+}
+
+main{
+    margin: auto 20%;
+}
+
+nav li{
+    display: inline;
+    margin-left: 20px;
+    margin-inline-end: 10px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid white;
+    padding: 5px;
+}
+nav {
+    float: right;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+/*referenciando via classe*/
+.destaque{
+    padding: 20px;
+    color: white;
+    background-color: brown;
+    margin-bottom: 20px;
+}
+
+/*referenciando via ID único*/
+#img-logo-html5{
+    width: 200px;
+    height: 120px;
+    alt: "Logo do HTML5";
+    background-blend-mode: color;
+    vertical-align: middle;
+}
+
+/*#HTML5{
+    background-image: url('/img/HTML5-LOGO.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/

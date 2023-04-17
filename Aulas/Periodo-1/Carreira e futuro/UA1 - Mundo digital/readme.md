@@ -107,7 +107,7 @@ São elementos presentes nos jogos
   * Letramento Computacional
   * Letramento Informacional
   * Letramento em Mídias
-* As principais dimensões do letramento digital são
+* As principais dimensões das competências digitais são
   * **Dimensão Tecnológica**
     * Capacidade de explorar novos contextos tecnológicos de uma forma flexível
       1. Reconhecer problemas tecnológicos
@@ -187,4 +187,6 @@ São elementos presentes nos jogos
     * Ser capaz de solucionar problemas técnicos
     * Conhecer técnicas de identificação de necessidades e elaboração de respostas
     * Utilizar de forma criativa as tecnologias digitais
+
+# Mídias digitais: tipos, vantagens e como utilizá-las
 

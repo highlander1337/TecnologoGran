@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>
+            Práticas de programação
+        </title>
+
+        <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+
+        <!-- Chamando o CSS Style -->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!-- Inicializando um block de JavaScript-->
+        <script>
+            const emailDesenvolvedor = "tassioleno@gmail.com"
+
+            // muito útil para debuggar código
+            console.log("Email do desenvolvedor: " + emailDesenvolvedor)
+
+            function acessarUsuario(){
+                const login = document.getElementById('loginUsuario').value
+                const senha = document.getElementById('senhaUsuario').value
+                
+                const usuarioLogado = document.getElementById('usuarioLogado')
+
+                document.getElementById('frmLogarUsuario').style.visibility = "hidden";
+                document.getElementById('frmDeslogarUsuario').style.visibility = "visible";
+                
+                usuarioLogado.innerHTML = "Seja bem vindo, " + login
+            }
+
+            function deslogarUsuario(){
+                document.getElementById('frmLogarUsuario').style.visibility = "visible";
+                document.getElementById('frmDeslogarUsuario').style.visibility = "hidden";
+                document.getElementById('loginUsuario').value = ""
+                document.getElementById('senhaUsuario').value = ""
+                
+            }
+
+        </script>
+
+    </head>
+
+    <body>
+
+
+        
+
+        <header>
+            <img id="img-logo-html5" src="img/CSS3-HTML5-JS-LOGO.png" alt="HTML5, CSS, JavaScript LOGO" usemap="#workmap"/> 
+            
+            <map name="workmap">
+                <area shape="rect" coords="25,40,62,80" title="Vá para a seção de CSS3 do W3Schools" target="_blank" href="https://www.w3schools.com/css/default.asp">
+                <area shape="rect" coords="68,20,132,92" title="Vá para a seção de HTML5 do W3Schools" target="_blank" href="https://www.w3schools.com/html/html_basic.asp">
+                <area shape="rect" coords="137,40,172,80" title="Vá para a seção de JavaScript do W3Schools" target="_blank" href="https://www.w3schools.com/js/default.asp">
+            </map>
+            <nav>
+                <ul>
+                    <li><a href="#HTML5-Chapter">HTML<sub>5</sub></a></li>
+                    <li><a href="#CSS3-Chapter">CSS</a></li>
+                    <li><a href="#logicaProgramacao-Chapter">Lógica de Programação</a></li>
+                    <li><a href="#JavaScript-Chapter">JavaScript</a></li>
+                </ul>
+            </nav> 
+        </header>
+
+        <main>
+
+            <form id="frmLogarUsuario" action="" style="padding: 10px;">
+                Login: <input type="text" id="loginUsuario" required/>
+                Senha: <input type="password" id="senhaUsuario" minlength="8" required/>
+                <input type="submit" id="btnAcessarUsuario" value="Acessar" onclick="acessarUsuario()"/>
+            </form>
+    
+            <form id="frmDeslogarUsuario" action="" style="padding: 10px; visibility: hidden;">
+                <p id="usuarioLogado">Seja bem vindo, </p>
+                <input type="submit" id="btnDeslogarUsuario" value="Deslogar" onclick="deslogarUsuario()"/>
+            </form>
+            <h1 style="color:white">
+                Práticas de Programação
+            </h1>
+
+            <p class="destaque">
+                Bem-vindos ao curso de Práticas de Programação
+            </p>
+
+            <h2>
+                Links úteis
+            </h2>
+            <ul>
+                <li><a target="_blank" href="https://www.w3schools.com/html/html_basic.asp" title="Vá para a seção de HTML Da W3Schools">W3Schools HTML</a></li>
+                <li><a target="_blank" href="https://www.w3schools.com/css/default.asp" title="Vá para a seção de CSS Da W3Schools">W3Schools CSS</a></li>
+                <li><a target="_blank" href="https://www.w3schools.com/js/default.asp" title="Vá para a seção de JavaScript Da W3Schools">W3Schools JavaScript</a></li>
+            </ul>
+
+            <h2 id="HTML5-Chapter">
+                HTML<sub>5</sub>
+            </h2>
+            <p>É uma linguagem de marcação de texto que funciona por meio da escrita de tags. O browser de internet, principal forma de compilar um arquivo HTML5, é responsável por identificar, interpretar e aplicar as funcionalidades de cada tag.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, non? Est saepe officia eaque eveniet animi temporibus corrupti, reiciendis fugiat sunt omnis! Laudantium qui optio quae quasi consectetur. Error, unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam dolor nostrum quasi tempora? Quam delectus cumque eligendi dolorum praesentium beatae dolorem doloribus debitis autem nobis, expedita, maxime similique ab.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque totam quo fugit assumenda nam aspernatur officiis repudiandae maxime natus molestias, libero unde adipisci necessitatibus labore voluptas error? At, quisquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente maiores cumque quas explicabo assumenda, beatae perspiciatis quibusdam! Dolorum iste exercitationem perferendis, sit quia omnis illum dolorem optio, accusamus nisi qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est dicta saepe eius quidem, odit quae magni autem unde voluptatum sed numquam nesciunt illo suscipit vero inventore sequi eaque veritatis?</p>
+            
+            <h2 id="CSS3-Chapter">
+                CSS3
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, non? Est saepe officia eaque eveniet animi temporibus corrupti, reiciendis fugiat sunt omnis! Laudantium qui optio quae quasi consectetur. Error, unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam dolor nostrum quasi tempora? Quam delectus cumque eligendi dolorum praesentium beatae dolorem doloribus debitis autem nobis, expedita, maxime similique ab.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque totam quo fugit assumenda nam aspernatur officiis repudiandae maxime natus molestias, libero unde adipisci necessitatibus labore voluptas error? At, quisquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente maiores cumque quas explicabo assumenda, beatae perspiciatis quibusdam! Dolorum iste exercitationem perferendis, sit quia omnis illum dolorem optio, accusamus nisi qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est dicta saepe eius quidem, odit quae magni autem unde voluptatum sed numquam nesciunt illo suscipit vero inventore sequi eaque veritatis?</p>
+            
+            <h2 id="logicaProgramacao-Chapter">
+                Lógica de programação
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, non? Est saepe officia eaque eveniet animi temporibus corrupti, reiciendis fugiat sunt omnis! Laudantium qui optio quae quasi consectetur. Error, unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam dolor nostrum quasi tempora? Quam delectus cumque eligendi dolorum praesentium beatae dolorem doloribus debitis autem nobis, expedita, maxime similique ab.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque totam quo fugit assumenda nam aspernatur officiis repudiandae maxime natus molestias, libero unde adipisci necessitatibus labore voluptas error? At, quisquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente maiores cumque quas explicabo assumenda, beatae perspiciatis quibusdam! Dolorum iste exercitationem perferendis, sit quia omnis illum dolorem optio, accusamus nisi qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est dicta saepe eius quidem, odit quae magni autem unde voluptatum sed numquam nesciunt illo suscipit vero inventore sequi eaque veritatis?</p>
+            
+            <h2 id="JavaScript-Chapter">
+                JavaScript
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, non? Est saepe officia eaque eveniet animi temporibus corrupti, reiciendis fugiat sunt omnis! Laudantium qui optio quae quasi consectetur. Error, unde?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ullam dolor nostrum quasi tempora? Quam delectus cumque eligendi dolorum praesentium beatae dolorem doloribus debitis autem nobis, expedita, maxime similique ab.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta doloremque totam quo fugit assumenda nam aspernatur officiis repudiandae maxime natus molestias, libero unde adipisci necessitatibus labore voluptas error? At, quisquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente maiores cumque quas explicabo assumenda, beatae perspiciatis quibusdam! Dolorum iste exercitationem perferendis, sit quia omnis illum dolorem optio, accusamus nisi qui.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est dicta saepe eius quidem, odit quae magni autem unde voluptatum sed numquam nesciunt illo suscipit vero inventore sequi eaque veritatis?</p>
+            
+        
+
+        </main>
+
+        <footer>
+            Todos os direitos reservados a Tássio Mangueira, <a href="mailto:"+emailDesenvolvedor> contate-me</a>
+        </footer>
+
+    </body>
+</html>
