@@ -190,3 +190,11 @@ São elementos presentes nos jogos
 
 # Mídias digitais: tipos, vantagens e como utilizá-las
 
+* Os principais tipos de mídias digitais são
+  * Gráficos, representações visuais de dados ou valores numéricos, com o objetivo de facilitar a sua compreensão
+  * Infográficos, mapa visual utilizado para facilitar a compreensão sobre determinado assunto ou conceito, dicas ou recomendações
+  * Vídeos e animações, técnica de reprodução eletrônica de imagens em sequência
+  * Blog, texto escrito, o qual permite a inserção de imagens, vídeos e áudios, costumam ter um formato jornalístico, podendo ser espaços para contos ou diários eletrônicos
+  * Audio posts, possibilidade de leitura e escuta do texto publicado, costuma ser uma conversão do texto escrito para áudio
+  * Podcasts, "programa de rádio" no qual se pode acessar a qualquer momento através das mídias digitais, podendo ouvir também de forma *off-line*
+
