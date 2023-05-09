@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Estruturas de Condição</title>
+
+        <script>
+
+            /*
+                Verificar o aumento de salário de acordo com os seguintes cargos:
+                Estagiário: 100%
+                Analista: 50%
+                Gerente: 30%
+                Presidente: 10%
+            */
+
+            const cargo = prompt("Digite um cargo: ")
+            const salario = prompt("Digite o salário: ")
+            let novoSalario = 0
+
+            switch(cargo){
+                case "Estagiario":  novoSalario = 2.0*salario;  console.log("Novo salário do Estagiário é: R$" + novoSalario);   break
+                case "Analista":    novoSalario = 1.5*salario;  console.log("Novo salário do Analista é: R$" + novoSalario);     break
+                case "Gerente":     novoSalario = 1.3*salario;  console.log("Novo salário do Gerente é: R$" + novoSalario);      break
+                case "Presidente":  novoSalario = 1.1*salario;  console.log("Novo salário do Presidente é: R$" + novoSalario);   break
+                default: alert("Favor escolher um cargo válido: Estagiario, Analista, Gerente, Presidente ou digite um Salário válido Ex: 0000.00")
+            }
+
+        
+        </script>
+    </head>
+    <body>
+
+    </body>
+</html>

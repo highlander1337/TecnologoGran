@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset='utf-8'>
+        <title>Conversor de bases</title>
+        <script>
+            
+            
+            function converterBinDec(){
+
+                if (document.getElementById("inputDec").value == ""){
+                    const codigoBinario = document.getElementById("inputBin").value
+                    let j = Number(codigoBinario.length); // para armazenar o comprimento do código binário
+                    let k = j - 1 // para utilizar como expoente para realizar a potência na base 2 conforme algorítmo do código binário
+                    
+                    let decimal = Number() // para armazenar o resultado da conversão de binário para decimal
+
+                    for(i = 0; i < j; i++){
+                        // se caso for 1 realize a potenciação, utilizei switch para lidar melhor com qualquer outro caso que não for 1
+                        switch(codigoBinario[i]){
+                            case '1': decimal = decimal + (2**k); break
+                            case '0': break 
+                            default: alert("Erro: Algum bit não é válido! ex de binário válido: 0101101"); return ; break
+                        }
+                        k = k - 1
+                    }
+
+                    // edita o formulário para atualizar o valor da conversão de binário para decimal
+                    document.getElementById("inputDec").value = decimal
+                }else{
+                    // Recebe número decimal do formulário html
+                    let numeroDecimal = Number(document.getElementById("inputDec").value)
+                    let codigoBinario = new String() // declaração de novo objeto do tipo palavra 
+                    let resto = new Number() // declaração de novo objeto do tipo número
+                    let novoCodigoBinario = new String() // para armazenar resultado da conversão de decimal para binário
+
+                    do{
+                        resto = numeroDecimal % 2 // resto da divisão por 2, segundo algorítmo de conversão binário
+
+                        codigoBinario = codigoBinario + resto // concatena o resto da divisão
+
+                        numeroDecimal = Math.floor(numeroDecimal/2) // arredonda para o menor número inteiro
+                        
+                        
+                    }while(numeroDecimal > 2)
+                    
+                    codigoBinario = codigoBinario + '1' // adiciona o MSB da conversão
+                    
+                    // varre e inverte a posição do MSB para o LSB
+                    for (i = codigoBinario.length - 1; i > - 1; i--){
+                        novoCodigoBinario = novoCodigoBinario + codigoBinario[i]
+                    }
+
+                    // edita o formulário para atualizar o valor da conversão de decimal para binário
+                    document.getElementById("inputBin").value = novoCodigoBinario
+                }
+            }
+        </script>
+
+
+    </head>
+
+    <body>
+
+        <header></header>
+
+        <main>
+            <form id="frmConversorBinDec" action="" style="padding: 10px;">
+                Binario: <input type="text" id="inputBin" style="margin-bottom: 10px;"/> <br>
+                Decimal: <input type="text" id="inputDec" style="margin-bottom: 10px;"/> <br>
+                <input type="button" id="btnConverterBinDec" value="Converter" onclick="converterBinDec()"/>
+            </form>
+
+        </main>
+
+        <footer></footer>
+    </body>
+</html>

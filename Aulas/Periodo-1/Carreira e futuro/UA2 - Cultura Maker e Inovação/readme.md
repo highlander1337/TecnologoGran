@@ -155,11 +155,49 @@
   * Matemática e estatística
   * Especialista técnico em alguma área
   * Habilidades com dados e técnicas de análise
+    * sem dados você é só mais uma pessoa com uma opinião, com dados é possível contar uma história e organizar melhor ideias e planos
 * As principais soft skills são
-  * Habilidade interpessoal
-  * Habilidade de contar histórias
-  * Capacidade crítica e analítica
-  * Trabalho em equipe
-  * Flexibilidade
-  * Gerenciamento do tempo
-  * Gestão de conflitos
+  * **Habilidade interpessoal**
+    * convivência harmônica
+    * ter empatia e saber se posicionar diante conflitos objetivando um convívio saudável
+  * **Habilidade de contar histórias**
+    * aliar a habilidade com dados e técnicas de análise com a capacidade de se comunicar com diferentes nichos de pessoas dentro e fora de organizações
+  * **Capacidade crítica e analítica**
+    * visão ampla sobre a situação, de forma a fugir de caminhos tradicionais
+    * criatividade, inovação e resolução de problemas devem fazer parte do conjunto de habilidades
+  * **Trabalho em equipe**
+    * um dos fatores que mais contribuem para o sucesso de empresas
+    * impulsiona a geração de ideias por meio da cooperação e objetivos comuns
+  * **Flexibilidade**
+    * adaptação rápida e adequada a novas exigências
+    * abertura para novas ideias e ao diálogo durante o debate de ideias diferentes
+  * **Gerenciamento do tempo**
+    * criação de rotinas e disciplinas de trabalho e descanso, junto com técnicas que contribuam para a otimização do tempo
+    * [(1123) Webnário Produtividade Empresarial - YouTube](https://www.youtube.com/watch?v=5pkWmYoEyCI&ab_channel=ChristianBarbosa)
+  * **Gestão de conflitos**
+    * envolve se posicionar e se relacionar adequadamente em situações de dificuldade, de divergências de ideias e problemas enfrentados no cotidiano do trabalho
+* São 15 habilidades requeridas para se trabalhar com tecnologia da informação e ser um profissional fazedor
+  * Conhecimento do ambiente de negócios da informação
+  * Capacidade de trabalhar em grupo
+  * Distinção e localização de informações relevantes e relevância na informação
+    * regra 80/20 pode ajudar a filtrar
+  * Domínio na utilização de equipamentos eletrônicos e na operação de sistemas ou softwares específicos
+  * Conhecimento de bases de dados
+    * úteis para construir uma história do problema e tomar decisões melhores, não somente baseadas em opiniões
+  * Familiaridade na administração de info business
+    * especificar um sistema para a área de tecnologia desenvolver
+    * quais ferramentas utilizar para desenvolver
+    * quais testes devemos realizar para atestar a qualidade do produto ou serviço
+    * quais processos dentro do negócio que podem ser automatizados pelo RPA (Robot Process Automation), por exemplo
+  * Embasamento teórico e prático sobre o funcionamento das organizações virtuais de informação
+  * Domínio da lógica dos sistemas de indexação e buscadores de internet
+    * com a internet podemos expandir negócios globalmente
+  * Excelência na comunicação oral e escrita
+  * Conhecimento da infraestrutura e serviços de informação
+    * para onde vão os dados?
+    * existe a segurança necessária?
+  * Ter flexibilidade e polivalência
+  * Atualização profissional constante
+  * Capacidade de entender e gerenciar episódios de diferentes naturezas e aplicações
+  * Habilidade na identificação de clientes e fornecedores
+  * Habilidade na identificação de parceiros
