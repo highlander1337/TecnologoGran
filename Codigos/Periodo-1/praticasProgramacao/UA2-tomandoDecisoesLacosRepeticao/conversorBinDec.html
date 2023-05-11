@@ -6,8 +6,8 @@
         <script>
             
             
-            function converterBinDec(){
-
+            function converterEntreBases(){
+                // Converter de binário para decimal
                 if (document.getElementById("inputDec").value == ""){
                     const codigoBinario = document.getElementById("inputBin").value
                     let j = Number(codigoBinario.length); // para armazenar o comprimento do código binário
@@ -28,6 +28,7 @@
                     // edita o formulário para atualizar o valor da conversão de binário para decimal
                     document.getElementById("inputDec").value = decimal
                 }else{
+                    // Converter de decimal para binário
                     // Recebe número decimal do formulário html
                     let numeroDecimal = Number(document.getElementById("inputDec").value)
                     let codigoBinario = new String() // declaração de novo objeto do tipo palavra 
@@ -65,10 +66,10 @@
         <header></header>
 
         <main>
-            <form id="frmConversorBinDec" action="" style="padding: 10px;">
+            <form id="frmConversorEntreBases" action="" style="padding: 10px;">
                 Binario: <input type="text" id="inputBin" style="margin-bottom: 10px;"/> <br>
                 Decimal: <input type="text" id="inputDec" style="margin-bottom: 10px;"/> <br>
-                <input type="button" id="btnConverterBinDec" value="Converter" onclick="converterBinDec()"/>
+                <input type="button" id="btnConverter" value="Converter" onclick="converterEntreBases()"/>
             </form>
 
         </main>
