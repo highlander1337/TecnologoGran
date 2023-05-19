@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head >
+        <meta charset='utf-8'>
+        <title>Estruturas de Repetição</title>
+
+        <script>
+
+            const qtdNotas = Number(prompt("Quantas notas você deseja cadastrar?"))
+            
+            let soma = 0
+            let nota = 0
+            for(i = 1; i <= qtdNotas; i++){
+                
+                do{
+                    nota = Number(prompt("Digite a nota " + i + " :"))
+                }while(nota > 10)
+
+                soma = soma + nota
+            }
+
+            if (soma/qtdNotas >= 7){
+                console.log("A sua média final é " + soma/qtdNotas + ", você foi aprovado! Parabéns!")
+            }else{
+                console.log("A sua média final é " + soma/qtdNotas + ", você foi reprovado! Estude mais!")
+            }
+                
+            
+        </script>
+    </head>
+
+</html>
