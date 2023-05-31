@@ -132,3 +132,92 @@
 * Dividir histórias em tarefas
 * Planejar release
 * Desenvolver integrar/testar software
+* Liberar software
+* Avaliar sistema
+
+## Valores do XP
+
+* Comunicação
+  * Conversas pessoais entre clientes e desenvolvedores
+  * Devem ocorrer o tempo todo
+* Coragem
+  * Falar a verdade, mesmo que essa verdade signifique trazer notícias ruins, como estimativas e custos honestos
+  * Lidar com as mudanças mesmo correndo o risco de algo dar errado
+* Feedback
+  * Troca de informações entre clientes e desenvolvedores durante a  produção do software
+  * Deve ser rápido e constante. Se há algo para ser corrigido, isso  deve ser feito o mais breve possível
+* Simplicidade
+  * Se existe um modo mais simples de se fazer algo, por que não  seguir por esse caminho?
+  * Fazer algo mais simples para modificá-lo depois
+* Respeito
+  * Valor que dá sustentação a todos os demais
+  * Deve imperar entre todos da equipe
+
+## Práticas do XP
+
+* Planejamento incremental
+* Pequenos releases
+* Projeto simples
+* Desenvolvimento test-first
+* Refatoração
+* Programação em pares
+* Propriedade coletiva
+* Integração contínua
+* Ritmo sustentável
+* Cliente no local
+
+## Papéis no XP
+
+* Cliente
+  * representante do usuário final responsável por levar os requisitos de sistema para implementação
+* Gerente de Projeto
+* Coach
+  * responsável por questões técnicas do projeto
+  * detém conhecimento do processo (valores e práticas)
+* Redator técnico
+  * responsável por documentar o sistema
+  * mantém todos informados da situação do projeto
+* Analista de teste
+* Desenvolvedor
+
+# Scrum
+
+* Metodologia que utiliza o processo de desenvolvimento iterativo e incremental como base
+* Divide-se o desenvolvimento em sprints
+* Direcionado por uma lista de backlog
+* As equipes são pequenas, auto-organizadas e auto conduzidas
+
+## Ciclo de vida do scrum
+
+* Visão do produto aliado as expectativas do cliente
+* Backlog de produto
+* Backlog de sprint
+* Sprint
+  * Reunião de planejamento do sprint
+  * Incremento de produto
+  * Revisão do sprint
+  * Retrospectiva do sprint
+  * Atualização do backlog de produto
+* Produto potencialmente entregável
+* Capacidade da equipe
+
+## Práticas do Scrum
+
+* Elaboração do Product Backlog
+  * Lista contendo todas as funcionalidades desejadas  (hipóteses) para um produto
+    * [COMO FAZER UM PRODUCT BACKLOG PERFEITO | MÉTODOS ÁGEIS - YouTube](https://www.youtube.com/watch?v=nO8_p6T6b9k&ab_channel=RobertoBrasileiro)
+    * [Product Backlog Building — PBB: Simples, rápido e enxuto - Fábio Aguiar | Agile Path - YouTube](https://www.youtube.com/watch?v=NzboG89PnvA&ab_channel=MoovenConsulting)
+  * Não há necessidade de completude
+  * Cresce e muda à medida que se aprende mais sobre o produto e seus usuários
+* Planejamento da sprint
+* Elaboração da Sprint Backlog
+* Reuniões Diárias (Scrum Daily)
+* Elaboração do Burndown (Release Burndown)
+* Revisão da sprint (Sprint Review)
+* Retrospectiva da sprint (Sprint retrospective)
+
+## Papéis no Scrum
+
+* Product Owner
+* Scrum Master
+* Scrum Team

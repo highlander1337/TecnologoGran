@@ -19,6 +19,7 @@
             // percorre atributos de objetos sem saber sua dimensão
             for (const atributo in pessoa) {
                 // checa se é uma propriedade própria (true) ou herdada(falsa)
+                // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
                 if (Object.hasOwnProperty.call(pessoa, atributo)) {
                     const propriedade = pessoa[atributo];
                     // verifica se é uma função, se for não exibe

@@ -110,11 +110,24 @@
 ### Hexadecimal
 
 * Soma-se 16 para cada algarismo menor que o debaixo e em seguida subtrai o novo algarismo pelo debaixo, tomando 1 do seguinte para validar o empréstimo
+
 * Sejam os números $(A741 - 8BED)_{16}$
   * $\begin{matrix}&&&\\A&7&4&1\\8&B&E&D\end{matrix}$
+  
+    
+  
   * $\begin{matrix}&&&17\\A&7&3&1\\8&B&E&D\\&&&4\end{matrix}$ 
+  
+    
+  
+    
+  
   * $\begin{matrix}&&19&\\A&6&3&1\\8&B&E&D\\&&5&4\end{matrix}$
+  
+    
+  
   * $\begin{matrix}&22&&\\9&6&3&1\\8&B&E&D\\&B&5&4\end{matrix}$
+  
   * $\begin{matrix}&&&\\9&6&3&1\\8&B&E&D\\1&B&5&4\end{matrix}$
 
 ## Multiplicação
@@ -122,14 +135,31 @@
 ### Binário
 
 * O primeiro passo é multiplicar cada algarismo do número de baixo pelo número de cima
+
 * O segundo passo é somar as parcelas
+
 * Sendo $(1101\times101)_2$
   * $\begin{matrix}1&1&0&1\\&1&0&1\end{matrix}$ 
+  
+    
+  
   * $\begin{matrix}&&1&1&0&1\\&&&1&0&1\\&&1&1&0&1\end{matrix}$ 
+  
+    
+  
   * $\begin{matrix}&&1&1&0&1\\&&&1&0&1\\&&1&1&0&1\\&0&0&0&0&\end{matrix}$ 
+  
+    
+  
   * $\begin{matrix}&&1&1&0&1\\&&&1&0&1\\&&1&1&0&1\\&0&0&0&0&\\1&1&0&1&\end{matrix}$ 
+  
+    
+  
   * $\begin{matrix}&&1&1&0&1\\&&&1&0&1\\&&1&1&0&1\\&0&0&0&0&0\\1&1&0&1&0&0\end{matrix}$ 
+  
+    
+  
   * $\begin{matrix}&&&1&1&0&1\\&&&&1&0&1\\&&&1&1&0&1\\&&0&0&0&0&0\\&1&1&0&1&0&0\\1&0&0&0&0&0&1\end{matrix}$ 
 
-### Octal
+
 
